@@ -7,8 +7,8 @@ public class intro {
 
         myFirstStringVariable = "Hello World!!!";
 
-        int myFirstIntegerValue = 3;
-        int mySecondIntegerValue = 3 * myFirstIntegerValue;
+        int myFirstIntegerValue = 5;
+        int mySecondIntegerValue = 5 * myFirstIntegerValue;
         String sum = "Summe: ";
 
         System.out.println(sum + mySecondIntegerValue);
