@@ -15,8 +15,8 @@ public class intro {
 
         char myFirstChar = 'p';
 
- //Float Ungenauigkeit
-        //
+ //*Float Ungenauigkeit
+
         double myFirstDoubleValue = 0.1;
         double mySecondDoubleValue = 0.7;
         double sum1 = mySecondDoubleValue + myFirstDoubleValue;
@@ -32,8 +32,8 @@ public class intro {
         System.out.println(sum1 == sum2);
 
 
- //Test Berechnungen
- //
+ //*Test Berechnungen
+
         float myThirdFloatValue = 0.23f;
         float myFourthFloatValue = 0.123456789f;
         double myThirdDoubleValue = 0.1;
@@ -49,8 +49,7 @@ public class intro {
         System.out.println(a == b);
 
 
- //mehrere Namen in einer Variable
- //
+ //*mehrere Namen in einer Variable
         String[] names = new String[5];
         names[0] = "Pia";
         names[1] = "Felix";
@@ -61,7 +60,6 @@ public class intro {
         System.out.println(names[3]);
 
 
-
         int[] data = new int[3];
         data[0] = 123;
         data[1] = 234;
@@ -70,24 +68,16 @@ public class intro {
 
         System.out.println(data[0]);
         System.out.println(data[2]);
- //oder
- //
+ //*oder
+
         System.out.println(data[0] + " " + data[2]);
-
-
         System.out.println(data[0] + data[1]);
-
-
         System.out.println(Array.getLength(data));
-  //oder
-  //
+  //*oder
+
         System.out.println(data.length);
 
 
         System.out.println(Arrays.toString(data));
-
-
-
-
     }
 }
