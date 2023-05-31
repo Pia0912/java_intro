@@ -52,11 +52,11 @@ public class intro {
  //mehrere Namen in einer Variable
  //
         String[] names = new String[5];
-        names[0] = "name1";
-        names[1] = "name2";
-        names[2] = "name3";
-        names[3] = "name4";
-        names[4] = "name5";
+        names[0] = "Pia";
+        names[1] = "Felix";
+        names[2] = "Anne";
+        names[3] = "Caro";
+        names[4] = "Nils";
 
         System.out.println(names[3]);
 
