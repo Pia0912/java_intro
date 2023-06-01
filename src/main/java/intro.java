@@ -3,19 +3,23 @@ import java.util.Arrays;
 
 public class intro {
     public static void main(String[] args){
+//String definieren und Ausgeben
         String myFirstStringVariable ="Hello cgn-23-2!!";
 
         myFirstStringVariable = "Hello World!!!";
+        System.out.println(myFirstStringVariable);
 
-        int myFirstIntegerValue = 5;
-        int mySecondIntegerValue = 5 * myFirstIntegerValue;
+//Integer Zahlen definieren und multiplizieren und mit Summe ausgeben
+        int myFirstIntegerValue = 15;
+        int mySecondIntegerValue = 3 * myFirstIntegerValue;
         String sum = "Summe: ";
 
         System.out.println(sum + mySecondIntegerValue);
 
         char myFirstChar = 'p';
+        System.out.println(myFirstChar);
 
- //*Float Ungenauigkeit
+ //*Float Ungenauigkeit mit Double & Float testen
 
         double myFirstDoubleValue = 0.1;
         double mySecondDoubleValue = 0.7;
@@ -49,7 +53,7 @@ public class intro {
         System.out.println(a == b);
 
 
- //*mehrere Namen in einer Variable
+ //*mehrere Namen in einer Variable als Array
         String[] names = new String[5];
         names[0] = "Pia";
         names[1] = "Felix";
