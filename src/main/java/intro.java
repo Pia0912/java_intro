@@ -16,7 +16,7 @@ public class intro {
 
         System.out.println(sum + mySecondIntegerValue);
 
-        char myFirstChar = 'p';
+        char myFirstChar = 'T';
         System.out.println(myFirstChar);
 
  //*Float Ungenauigkeit mit Double & Float testen
