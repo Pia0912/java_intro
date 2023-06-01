@@ -11,7 +11,7 @@ public class intro {
 
 //Integer Zahlen definieren und multiplizieren und mit Summe ausgeben
         int myFirstIntegerValue = 15;
-        int mySecondIntegerValue = 3 * myFirstIntegerValue;
+        int mySecondIntegerValue = 7 * myFirstIntegerValue;
         String sum = "Summe: ";
 
         System.out.println(sum + mySecondIntegerValue);
