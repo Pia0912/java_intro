@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class BonusAufgabe {
 public static void main(String[] args) {
-            int a = 3;
+            int a = 23;
             int b = 10;
 
             int sum = sumTwoNumbers(a, b);
