@@ -1,10 +1,10 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class intro {
+public class Intro {
     public static void main(String[] args){
 //String definieren und Ausgeben
-        String myFirstStringVariable ="Hello cgn-23-2!!";
+        String myFirstStringVariable = "Hello cgn-23-2!!";
 
         myFirstStringVariable = "Hello World!!!";
         System.out.println(myFirstStringVariable);
